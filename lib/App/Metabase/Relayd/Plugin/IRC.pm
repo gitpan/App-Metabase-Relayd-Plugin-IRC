@@ -1,6 +1,6 @@
 package App::Metabase::Relayd::Plugin::IRC;
 BEGIN {
-  $App::Metabase::Relayd::Plugin::IRC::VERSION = '0.02';
+  $App::Metabase::Relayd::Plugin::IRC::VERSION = '0.04';
 }
 
 # ABSTRACT: IRC plugin for metabase-relayd
@@ -86,7 +86,7 @@ App::Metabase::Relayd::Plugin::IRC - IRC plugin for metabase-relayd
 
 =head1 VERSION
 
-version 0.02
+version 0.04
 
 =head1 SYNOPSIS
 

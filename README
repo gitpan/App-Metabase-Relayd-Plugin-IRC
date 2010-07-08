@@ -2,7 +2,7 @@ NAME
     App::Metabase::Relayd::Plugin::IRC - IRC plugin for metabase-relayd
 
 VERSION
-    version 0.02
+    version 0.04
 
 SYNOPSIS
       # example metabase-relayd configuration file
