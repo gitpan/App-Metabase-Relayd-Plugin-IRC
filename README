@@ -2,7 +2,7 @@ NAME
     App::Metabase::Relayd::Plugin::IRC - IRC plugin for metabase-relayd
 
 VERSION
-    version 0.06
+    version 0.08
 
 SYNOPSIS
       # example metabase-relayd configuration file
@@ -49,6 +49,13 @@ CONFIGURATION
 
     "channels"
         A comma-separated list of IRC channels to join, default is "#relayd"
+
+    "flood"
+        Set to a "true" value to disable anti-flood protection when sending
+        stuff to the ircd. Defaults to "false" if not specified. Care should
+        be used when enabling this option and it requires the cooperation of
+        a friendly irc oper to ensure that disconnects and k-lines are not
+        the side-effects of enabling this option.
 
 SEE ALSO
     metabase-relayd
